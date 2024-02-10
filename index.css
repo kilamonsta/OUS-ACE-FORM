@@ -28,7 +28,7 @@ header img {
 h1 {
     margin: 0;
     font-size: 30px;
-    color: #fffafa;
+    color: #530f0f;
     font-style: oblique;
 }
 
@@ -36,8 +36,8 @@ h2 {
     margin-top: 5px;
     font-size: 20px;
     text-align: center;
-    color: #fffafa;
-    font-weight: lighter
+    color: #530f0f;
+    font-weight: lighter;
 }
 
 h3 {
