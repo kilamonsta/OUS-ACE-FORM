@@ -1,0 +1,62 @@
+h1 {
+    font-size: 40px;
+    color: #5a0f0f;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #440000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url('west.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.center-box {
+    text-align: center;
+}
+
+.status-box {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fffcfc86;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 236, 236, 0.671);
+    max-width: 400px;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.home-button,
+.logout-button {
+    margin-top: 20px;
+    background-color: #016097;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.home-button:hover,
+.logout-button:hover {
+    background-color: #4ca2ff;
+}
